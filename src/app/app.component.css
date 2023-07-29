@@ -1,0 +1,60 @@
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  nav a:visited,
+  a:link {
+    color: #607d8b;
+  }
+  nav a:hover {
+    color: #039be5;
+    background-color: #cfd8dc;
+  }
+  nav a.active {
+    color: #039be5;
+  }
+  
+  .centerHeading {
+    margin-left: 30%;
+  }
+  .center {
+    margin-left: 15%;
+  }
+  .centerHeading[_ngcontent-ng-c3123676870] {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: -1px;
+    color: #fff;
+}
+.center[_ngcontent-ng-c3123676870] nav[_ngcontent-ng-c3123676870] {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  border-radius: initial;
+  FONT-WEIGHT: 200;
+}
+.container[_ngcontent-ng-c3123676870] {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #64B5F6, #FFD54F);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.centerHeading[_ngcontent-ng-c1835036226] {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  color: #fff;
+  margin-left: auto;
+}
+.center[_ngcontent-ng-c1835036226] nav[_ngcontent-ng-c1835036226] {
+  display: flex;
+  justify-content: center;
+  margin-left: -126px;
+}

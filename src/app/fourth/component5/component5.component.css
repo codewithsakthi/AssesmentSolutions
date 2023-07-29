@@ -1,0 +1,10 @@
+.centerButton {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}

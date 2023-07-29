@@ -1,0 +1,15 @@
+.box {
+    position: absolute;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+  }
+  .box.top {
+    top: 0;
+  }
+  .box.right {
+    right: 0;
+  }
+  .box.bottom {
+    bottom: 0;
+  }

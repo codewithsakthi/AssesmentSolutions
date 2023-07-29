@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Awesome Solutions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background: linear-gradient(135deg, #64B5F6, #FFD54F); /*  gradient colors */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .centerHeading {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 20px;
+      color: #fff; /*  text color */
+    }
+
+    .center {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .center nav {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #007bff; /*  link color */
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #007bff; /*  hover color */
+      color: #fff; /*  text color on hover */
+    }
+
+    router-outlet {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="centerHeading mt-5"><b>Solutions</b></div>
+    <div class="center">
+      <nav>
+        <a routerLink="missnumber" routerLinkActive="active">Missing Number</a>
+        <a class="ml-2" routerLink="phone" routerLinkActive="active">Phone Number Form</a>
+        <a class="ml-1" routerLink="fourth" routerLinkActive="active">Home Module</a>
+        <a class="ml-1" routerLink="fifth" routerLinkActive="active">Dynamic Module</a>
+
+      </nav>
+    </div>
+  </div>
+
+  <router-outlet></router-outlet>
+</body>
+</html>

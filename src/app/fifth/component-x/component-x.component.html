@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="x-back">
+      <label>Component X</label>
+      <input type="text" [(ngModel)]="xData" />
+      <button class="btn btn-primary" (click)="onAdded($event)">+</button>
+    </div>
+  
+    <div *ngFor="let item of component_y_arr; let i = index">
+        <!-- Some content here -->
+      
+        <!-- Use the index provided by *ngFor -->
+        <app-component-y [yIndex]="i.toString()" [xIndex]="xIndex" [xData]="xData"></app-component-y>
+      </div>
+      
+  </div>
+  

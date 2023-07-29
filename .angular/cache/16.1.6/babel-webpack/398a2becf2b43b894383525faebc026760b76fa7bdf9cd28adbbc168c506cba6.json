@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Phonenumber {}","map":{"version":3,"names":["Phonenumber"],"sources":["/home/sakthi/Music/Solution134/src/app/phonenumber.model.ts"],"sourcesContent":["export class Phonenumber {\n}\n"],"mappings":"AAAA,OAAM,MAAOA,WAAW"},"metadata":{},"sourceType":"module","externalDependencies":[]}

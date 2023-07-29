@@ -1,0 +1,18 @@
+  
+.center {
+    margin-left: 50%;
+  }
+
+  .row center{
+    position:relative;
+    left:-50%
+  }
+  .container[_ngcontent-ng-c4198842923] {
+    max-width: 800px;
+    margin: 12px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #64B5F6, #FFD54F);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
